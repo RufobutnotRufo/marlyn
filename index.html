@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marlin</title>
+    <link rel="stylesheet" href="assets/css/my.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+<!--Button scroll To Top-->
+<button id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+<!-- Header Start -->
+    <header>
+        
+    </header>
+    <header id="nav_bar">
+        <div class="main-header">
+            <div class="headering">
+                <div class="logo">
+                    <a href="index.html"><img src="data:image/webp;base64,UklGRs4BAABXRUJQVlA4TMEBAAAvYoAFEH8gEEjyFxl1heEenYlI6DiQo/3/2jbfMIluUGZeWXsZ1+QGzQ3sG8hbGU7AOHorhbZyw2OkMOv/Gf5/R2pPENH/CdC/jZr1v0eGljIGBgYG2iR9HBgY6CzUD14ZAJ4kA/hl9JRx3UAobQcuNBdSnrWUoXW4LdWAVhWPmlXqGoxKY0CLpGhXo+3NahjtanSi2TEK0tyo4xtwSErT9CmcT9O0S/oGHFItTZ9NQo+VQIfWnlg1gEwCNqAC9KgGkOkFZMCotQ185Q+tMbIYuvQU+8lTa4wshi5NQJZDq7QW5myLuGONUJHBk+DJCMdkjVCRwdML8GvQZa2QVKlZ0c9LMgRW+HS43RH9vCRDYLVH0GPNMjoy6rBzly/JYeeuJoFn1WG+4no9A66eLbyeAZca9UEeOurYRerYRQT4jnWGm/NC6ww358U2ocNhCGUKGUKZYsvQ5AC/BPALrYeaZVQNgpgSgpit+NJmr+okqkOHcpJp2KZ+CCT1Q6CcZBq2aQzaBYFm4OgVtvUZyLqXgBz2G+CSYgN4S0AOH4BMQBdwTvhVAK8KyRycBOjVFYCgCskc/ASwelQwvqUS41sqCAA=">
+                    </a>
+                </div>
+                <div class="menu_icon">
+                    <span></span>
+                </div>
+            </div>
+            <div class="menu_list">
+                <nav>
+                    <ul>
+                        <li><a href="#slider">Home</a></li>
+                        <li><a href="#booking">About</a></li>
+                        <li><a href="#about-company">Service</a></li>
+                        <li><a href="#">Blog</a>
+                            <ul class="submenu">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Pages</a>
+                            <ul class="submenu">
+                                <li><a href="#">Rooms</a>
+                                <li><a href="#">Element</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+                <div class="block-second">
+                    <a href="#" class="submit">Book Online </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!--   First Slider section -->
+    <section id="slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider-item-1">
+                        <div class="slider-img">
+                            <img alt="hero" src="assets/img/h1_hero.jpg">
+                        </div>
+                        <div class="slider-text">
+                            <h1 class="lineUp">Top hotel in the city</h1>
+                            <h3 class="lineUp">Hotel & Resourt</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item-1">
+                        <div class="slider-img">
+                            <img alt="hero" src="assets/img/h1_hero.jpg">
+                        </div>
+                        <div class="slider-text">
+                            <h1 class="lineUp">Top hotel in the city</h1>
+                            <h3 class="lineUp">Hotel & Resourt</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider-item-1">
+                        <div class="slider-img">
+                            <img alt="hero" src="assets/img/h1_hero.jpg">
+                        </div>
+                        <div class="slider-text">
+                            <h1 class="lineUp">Top hotel in the city</h1>
+                            <h3 class="lineUp">Hotel & Resourt</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+<!--    Boooking area-->
+    <section id="booking">
+        <div class="booking-box">
+            <div  class="inDate animate__animated animate__bounce">
+                <h4>Check In Date:</h4>
+                <input class="date-input" type="date" alt="date"  placeholder="03/02/2022" required/>
+            </div>
+            <div class="outDate animate__animated animate__bounce">
+                <h4>Check In Date:</h4>
+                <input class="date-input" type="date" alt="date" placeholder="31/08/2022" required/>
+            </div>
+            <div class="adults animate__animated animate__bounce">
+                <h4>Adults:</h4>
+                <div class="nice-select">
+                    <select class="select" name="select">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="children animate__animated animate__bounce">
+                <h4>Children:</h4>
+                <div class="nice-select">
+                    <select class="select" name="select">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="room animate__animated animate__bounce">
+                <h4>Rooms:</h4>
+                <div class="nice-select">
+                    <select class="select" name="select">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="booking-submit animate__animated animate__bounce">
+                <a href="#" class="btn-book">Book Now  </a>
+            </div>
+        </div>
+    </section>
+
+
+<!--Our Company -->
+    <section id="about-company">
+        <div class="about-company-box">
+            <div class="box-img animate__animated animate__bounceInLeft">
+                <div class="img-room">
+                    <img src="assets/img/cutomer.jpg">
+                </div>
+                <div class="service-experience heart">
+                    <h3>25 Years of Service<br>Experience</h3>
+                </div>
+            </div>
+            <div class="text-box wow animate__animated animate__bounceInRight">
+                <div class="customer-box">
+                    <div class="customer-title">
+                        <span>About our company</span>
+                        <h2>
+                            Make the customer the hero of your story
+                        </h2>
+                    </div>
+                    <div class="customer-content">
+                        <p class="firstText">Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed do eiusmod tempor inc.</p>
+                        <p class="second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <a href="#">Learn more <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <section id="our-rooms">
+        <div class="container">
+            <div class="title-box">
+                <div class="main-title">
+                    <h3>Our Rooms</h3>
+                </div>
+                <div class="shadow-title">
+                    <h3>Our Rooms</h3>
+                </div>
+            </div>
+            <div class="content-box wow animate__animated animate__slideInUp">
+                <div class="room-box ">
+                    <div class="room-box-img">
+                        <img alt="room1" src="assets/img/room1.jpg">
+                    </div>
+                    <div class="room-caption">
+                        <h3>Classic Double Bed</h3>
+                        <div class="per-night">
+                            <span><u>$</u>150 <span>/ par night</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-box">
+                    <div class="room-box-img">
+                        <img alt="room1" src="assets/img/room2.jpg">
+                    </div>
+                    <div class="room-caption">
+                        <h3>Classic Double Bed</h3>
+                        <div class="per-night">
+                            <span><u>$</u>150 <span>/ par night</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-box">
+                    <div class="room-box-img">
+                        <img alt="room1" src="assets/img/room3.jpg">
+                    </div>
+                    <div  class="room-caption">
+                        <h3>Classic Double Bed</h3>
+                        <div class="per-night">
+                            <span><u>$</u>150 <span>/ par night</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-box">
+                    <div class="room-box-img">
+                        <img alt="room1" src="assets/img/room4.jpg">
+                    </div>
+                    <div class="room-caption">
+                        <h3>Classic Double Bed</h3>
+                        <div class="per-night">
+                            <span><u>$</u>150 <span>/ par night</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-box">
+                    <div class="room-box-img">
+                        <img alt="room1" src="assets/img/room5.jpg">
+                    </div>
+                    <div class="room-caption">
+                        <h3>Classic Double Bed</h3>
+                        <div class="per-night">
+                            <span><u>$</u>150 <span>/ par night</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-box">
+                    <div class="room-box-img">
+                        <img alt="room1" src="assets/img/room6.jpg">
+                    </div>
+                    <div class="room-caption">
+                        <h3>Classic Double Bed</h3>
+                        <div class="per-night">
+                            <span><u>$</u>150 <span>/ par night</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-box">
+                <div class="button">
+                    <a href="#">
+                        View More
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--    Dinning area-->
+
+    <section id="dinning">
+        <div class="dinning-box">
+            <div class="dinning-left-box">
+                <div class="container">
+                    <div class="box-content">
+                        <div class="text-area">
+                            <span>Our resturent</span>
+                            <h3>Dining & Drinks</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud.</p>
+                            <a href="#">Learn More <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dinning-right-box">
+                <div class="container">
+                    <div class="box-content">
+                        <div class="text-area">
+                            <span>OUR POOL</span>
+                            <h3>Swimming Pool</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud.</p>
+                            <a href="#">Learn More <i class="fas fa-angle-right"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Testimonial second slider section-->
+    <section id="testimonial">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonial-area">
+                        <div class="header-box">
+                            <div class="main-title">
+                                <img alt="testimonial logo" src="assets/img/testimonial.png">
+                            </div>
+                            <div class="shadow-title">
+                                <h3>Testimonial</h3>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                            <div class="stars">
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                            </div>
+                            <div class="author">
+                                <span>Clifford Frazier, <span>Regular Client</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonial-area">
+                        <div class="header-box">
+                            <div class="main-title">
+                                <img alt="testimonial logo" src="assets/img/testimonial.png">
+                            </div>
+                            <div class="shadow-title">
+                                <h3>Testimonial</h3>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                            <div class="stars">
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                            </div>
+                            <div class="author">
+                                <span>Clifford Frazier, <span>Regular Client</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonial-area">
+                        <div class="header-box">
+                            <div class="main-title">
+                                <img alt="testimonial logo" src="assets/img/testimonial.png">
+                            </div>
+                            <div class="shadow-title">
+                                <h3>Testimonial</h3>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                            <div class="stars">
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                                <a href="#"><i class="fas fa-star"></i></a>
+                            </div>
+                            <div class="author">
+                                <span>Clifford Frazier, <span>Regular Client</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next slider-button"></div>
+                <div class="swiper-button-prev slider-button" ></div>
+            </div>
+        </div>
+    </section>
+
+
+<!--Our Blog-->
+    <section id="our-blog">
+        <div class="container">
+            <div class="title-box">
+                <div class="main-title">
+                    <h3>Our Blog</h3>
+                </div>
+                <div class="shadow-title">
+                    <h3>Recent news</h3>
+                </div>
+            </div>
+            <div class="content-box">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/img/blog-img1.jpg">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-content-header">
+                            <span class="news">News</span>
+                            <span class="author">by<span>John Guru</span></span>
+                        </div>
+                        <div class="box-content-body">
+                            <p>5 Simple Tricks for Getting Stellar Hotel Service Wherever You Are</p>
+                        </div>
+                        <div class="box-content-footer">
+                            <span>Feb 28, 2020</span>
+                            <span><img alt="map" src="assets/img/blog-comments-icon.jpg">3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/img/blog-img2.jpg">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-content-header">
+                            <span class="news">News</span>
+                            <span class="author">by<span>John Guru</span></span>
+                        </div>
+                        <div class="box-content-body">
+                            <p>5 Simple Tricks for Getting Stellar Hotel Service Wherever You Are</p>
+                        </div>
+                        <div class="box-content-footer">
+                            <span>Feb 28, 2020</span>
+                            <span><img alt="map" src="assets/img/blog-comments-icon.jpg">3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/img/blog-img3.jpg">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-content-header">
+                            <span class="news">News</span>
+                            <span class="author">by<span>John Guru</span></span>
+                        </div>
+                        <div class="box-content-body">
+                            <p>5 Simple Tricks for Getting Stellar Hotel Service Wherever You Are</p>
+                        </div>
+                        <div class="box-content-footer">
+                            <span>Feb 28, 2020</span>
+                            <span><img alt="map" src="assets/img/blog-comments-icon.jpg">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--    Third Slider-->
+    <section id="third-slider">
+        <div class="slider-box">
+            <div class="swiper third-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/gallery1.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide">
+                            <img src="assets/img/gallery2.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide">
+                            <img src="assets/img/gallery3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--    Footer section-->
+    <footer id="footer">
+        <div class="container">
+            <div class="box">
+                <div class="first-section">
+                    <div class="first-section-logo">
+                        <img src="data:image/webp;base64,UklGRs4BAABXRUJQVlA4TMEBAAAvYoAFEH8gEEjyFxl1heEenYlI6DiQo/3/2jbfMIluUGZeWXsZ1+QGzQ3sG8hbGU7AOHorhbZyw2OkMOv/Gf5/R2pPENH/CdC/jZr1v0eGljIGBgYG2iR9HBgY6CzUD14ZAJ4kA/hl9JRx3UAobQcuNBdSnrWUoXW4LdWAVhWPmlXqGoxKY0CLpGhXo+3NahjtanSi2TEK0tyo4xtwSErT9CmcT9O0S/oGHFItTZ9NQo+VQIfWnlg1gEwCNqAC9KgGkOkFZMCotQ185Q+tMbIYuvQU+8lTa4wshi5NQJZDq7QW5myLuGONUJHBk+DJCMdkjVCRwdML8GvQZa2QVKlZ0c9LMgRW+HS43RH9vCRDYLVH0GPNMjoy6rBzly/JYeeuJoFn1WG+4no9A66eLbyeAZca9UEeOurYRerYRQT4jnWGm/NC6ww358U2ocNhCGUKGUKZYsvQ5AC/BPALrYeaZVQNgpgSgpit+NJmr+okqkOHcpJp2KZ+CCT1Q6CcZBq2aQzaBYFm4OgVtvUZyLqXgBz2G+CSYgN4S0AOH4BMQBdwTvhVAK8KyRycBOjVFYCgCskc/ASwelQwvqUS41sqCAA=">
+                    </div>
+                    <div class="first-section-social">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fas fa-globe"></i></a>
+                        <a href="#"><i class="fab fa-behance-square"></i></a>
+                    </div>
+                    <div class="footer-pera">
+                        <p>
+                            Copyright ©2022 All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://github.com/Murad7991" target="_blank"><span><strong style="color: white">Murad7991</strong></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="second-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>About Mariana</li>
+                        <li>Our Best Rooms</li>
+                        <li>Our Photo Gellary</li>
+                        <li>Pool Service</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="box">
+                <div class="third-section">
+                    <h4>Reservations</h4>
+                    <ul>
+                        <li>Tel: 345 5667 889</li>
+                        <li>Skype: Marianabooking</li>
+                        <li>reservs@hotel.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <div class="four-section">
+                    <h4>Our locations</h4>
+                    <ul>
+                        <li>198 West 21th Street,</li>
+                        <li>Suite 721 New York NY 10016</li>
+                    </ul>
+                    <div class="four-section-input">
+                        <input type="email" placeholder="Email Address">
+                        <img src="assets/img/form-iocn.jpg">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/wow.js"></script>
+<script src="https://kit.fontawesome.com/1524673cd9.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="assets/js/slider.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="./masa.js"></script>
+</body>
+</html>
+
+
